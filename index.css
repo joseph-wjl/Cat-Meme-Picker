@@ -1,0 +1,36 @@
+body {
+    margin: 0;
+    text-align: center;
+    font-family: 'Karla', sans-serif;
+}
+
+header {
+    background-color: #67595e;
+    color: #EED6D3
+}
+
+.header-inner {
+    display: flex;
+
+}
+
+.header-img {
+    width: 80px;
+}
+
+.checkbox-container {
+    margin-bottom: 15px;
+}
+
+.get-image-btn {
+    font-size: 20px;
+    border: none;
+    background-color: #67595e;
+    color: #eed6d3;
+    padding: 15px 35px;
+    border-radius: 5px;
+}
+
+.get-image-btn:hover {
+    cursor: pointer;
+}
