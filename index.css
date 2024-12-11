@@ -6,12 +6,16 @@ body {
 
 header {
     background-color: #67595e;
-    color: #EED6D3
+    color: #EED6D3;
 }
 
 .header-inner {
     display: flex;
-
+    align-items: center;
+    margin: 0 auto;
+    padding: 20px 0 0 0;
+    width: 370px;
+    gap: 10px;
 }
 
 .header-img {
