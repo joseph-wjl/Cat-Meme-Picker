@@ -4,6 +4,7 @@ const emotionRadios = document.getElementById("emotion-radios")
 const getImageBtn = document.getElementById("get-image-btn")
 const gifOnly = document.getElementById("gif-only")
 const modal = document.getElementById("modal")
+const closeModalBtn = document.getElementById("close-modal-btn")
 
 const display = document.getElementById("display")
 
