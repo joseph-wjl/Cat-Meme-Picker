@@ -3,6 +3,7 @@ import { catsData } from '/data.js'
 const emotionRadios = document.getElementById("emotion-radios")
 const getImageBtn = document.getElementById("get-image-btn")
 const gifOnly = document.getElementById("gif-only")
+const modal = document.getElementById("modal")
 
 const display = document.getElementById("display")
 
@@ -51,3 +52,16 @@ function getMatchingArray(cats) {
     }
 }
 
+function getMatchingCat() {
+    const catsArray = getMatchingArray()
+    if (catsArray.length === 1) {
+        return catsArray[0]
+    } else {
+        return catsArray[Math.floor(Math.random()) * catsArray.length]
+    }
+}
+
+function renderCat() {
+    const selectedCat = getMatchingCat()
+
+}
