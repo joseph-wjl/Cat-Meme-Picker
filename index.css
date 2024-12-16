@@ -39,8 +39,16 @@ header {
     cursor: pointer;
 }
 
-/* modal
-
 .modal {
-    width: ;
-} */
+    margin: auto;
+    top: 80px;
+    left: 0;
+    right: 0;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #67595e;
+    border-radius: 5px;
+    width: 420px;
+    height: 490px;
+    background-color: #fff0ee;
+}

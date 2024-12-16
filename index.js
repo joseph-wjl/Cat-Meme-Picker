@@ -4,9 +4,11 @@ const emotionRadios = document.getElementById("emotion-radios")
 const getImageBtn = document.getElementById("get-image-btn")
 const gifOnly = document.getElementById("gif-only")
 const modal = document.getElementById("modal")
-const closeModalBtn = document.getElementById("close-modal-btn")
+// const closeModalBtn = document.getElementById("close-modal-btn")
 
 const display = document.getElementById("display")
+
+getImageBtn.addEventListener("click", renderCat)
 
 function getEmotionsArray(cats) {
     let emotionsArray = []
@@ -65,9 +67,11 @@ function getMatchingCat() {
 
 function renderCat() {
     const selectedCat = getMatchingCat()
-    let modalHtml = ``
-    modalHtml += `
-        <img src=>
+    modal.innerHTML = `
+    <img
+    src="images/${selectedCat.image}"
+    alt="${selectedCat.alt}">
     `
+    modal.style.display = "flex"
 }
 
