@@ -58,11 +58,16 @@ function getMatchingCat() {
     if (catsArray.length === 1) {
         return catsArray[0]
     } else {
-        return catsArray[Math.floor(Math.random()) * catsArray.length]
+        const randomNumber = Math.floor(Math.random()) * catsArray.length
+        return catsArray[randomNumber]
     }
 }
 
 function renderCat() {
     const selectedCat = getMatchingCat()
-
+    let modalHtml = ``
+    modalHtml += `
+        <img src=>
+    `
 }
+
