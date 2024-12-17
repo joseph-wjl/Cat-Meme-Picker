@@ -6,8 +6,6 @@ const gifOnly = document.getElementById("gif-only")
 const modal = document.getElementById("modal")
 // const closeModalBtn = document.getElementById("close-modal-btn")
 
-const display = document.getElementById("display")
-
 getImageBtn.addEventListener("click", renderCat)
 
 function getEmotionsArray(cats) {
